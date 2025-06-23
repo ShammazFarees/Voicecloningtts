@@ -8,9 +8,9 @@
 - Hugging Face integration for easy model sharing
 
 ## Installation
-git clone https://github.com/ShammazFarees/Voicecloningtts.git
-cd VoiceCloningTTS
-pip install -r requirements.txt
+- git clone https://github.com/ShammazFarees/Voicecloningtts.git
+- cd VoiceCloningTTS
+- pip install -r requirements.txt
 
 ## Quick Start
 - Prepare your dataset:
@@ -28,13 +28,13 @@ pip install -r requirements.txt
 
 ## Project Structure
 VoiceCloningTTS/
-├── configs/          # Configuration files
-├── data/             # Sample datasets
-├── models/           # Pretrained models
-├── scripts/          # Utility scripts
-├── inference.py      # Voice cloning demo
-├── train.py          # Training script
-└── requirements.txt  # Dependencies
+- ├── configs/          # Configuration files
+- ├── data/             # Sample datasets
+- ├── models/           # Pretrained models
+- ├── scripts/          # Utility scripts
+- ├── inference.py      # Voice cloning demo
+- ├── train.py          # Training script
+- └── requirements.txt  # Dependencies
 
 ## Results
 - Model	Naturalness (1-5)	Training Time (hrs)	VRAM Usage
