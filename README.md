@@ -13,18 +13,18 @@ cd VoiceCloningTTS
 pip install -r requirements.txt
 
 ## Quick Start
-o Prepare your dataset:
-python preprocess.py --input_dir ./samples --output_dir ./processed
-o Fine-tune the model:
-python train.py --config configs/lora_config.yaml
-o Generate cloned voice:
-from inference import clone_voice
-clone_voice(text="Hello world!", reference_audio="target.wav", output_path="output.wav")
+- Prepare your dataset:
+-   python preprocess.py --input_dir ./samples --output_dir ./processed
+- Fine-tune the model:
+-   python train.py --config configs/lora_config.yaml
+- Generate cloned voice:
+-   from inference import clone_voice
+-   clone_voice(text="Hello world!", reference_audio="target.wav", output_path="output.wav")
 
 ## Supported Models
-XTTS-v2
-YourTTS
-CSM-1B (for conversational TTS)
+- XTTS-v2
+- YourTTS
+- CSM-1B (for conversational TTS)
 
 ## Project Structure
 VoiceCloningTTS/
@@ -37,14 +37,14 @@ VoiceCloningTTS/
 └── requirements.txt  # Dependencies
 
 ## Results
-Model	Naturalness (1-5)	Training Time (hrs)	VRAM Usage
-XTTS-v2	4.3	6	16GB
-+ LoRA	4.1	3	8GB
+- Model	Naturalness (1-5)	Training Time (hrs)	VRAM Usage
+- XTTS-v2	4.3	6	16GB
+- + LoRA	4.1	3	8GB
 
 ## References
-XTTS-v2 Paper
-LoRA Paper
-HuggingFace TTS
+- XTTS-v2 Paper
+- LoRA Paper
+- HuggingFace TTS
 
 ## License
 MIT License 
